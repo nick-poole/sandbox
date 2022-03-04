@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+     <html lang="en">
+         <head>
+             <meta charset="utf-8">
+             <meta http-equiv="X-UA-Compatible" content="IE=edge">
+             <title>Forms</title>
+             <meta name="description" content="">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+             <link rel="stylesheet" href="app.css">
+         </head>
+         <body>
+            <h1>Forms</h1> 
+              <form action="/birds">
+                  <div>
+                      <label for="name"><b>Name</b></label>  
+                      <input type="text" name="name" id="name" placeholder="Name">
+                  </div>
+                  <div>
+                      <label for="dob"><b>Date of Birth</b></label>
+                      <input type="date" name="dob" id="dob">
+                  </div>
+                  <div>
+                      <label for="email"><b>Email</b></label>  
+                      <input type="email" name="email" id="email" placeholder="Enter Email">
+                  </div>
+            
+                  <div>
+                      <label for="city"><b>City</b></label>
+                          <input type="text" name="city" id="city" placeholder="City" required>
+                  </div>
+                  <div>
+                      <label for="region-select">Select region</label>
+                          <select name="region" id="region" required>
+                              <option value="">--Region--</option>
+                              <option value="dc">DC</option>
+                              <option value="md">MD</option>
+                              <option value="va">VA</option>
+                          </select>
+                  </div>
+                  <div>
+                    <h5><b>T-Shirt Size</b></h5>
+                    <label for="s">Small</label> 
+                        <input type="radio" name="size" id="S"  value="s">
+                    <label for="sm">Smedium</label>    
+                        <input type="radio" name="size" id="SM" value="sm">
+                    <label for="m">Medium</label>    
+                        <input type="radio" name="size" id="M"  value="m">
+                    <label for="L">Large</label>
+                        <input type="radio" name="size" id="L"  value="L">
+                    <label for="xl">XL</label>   
+                        <input type="radio" name="size" id="XL" value="xl">
+                  </div>
+
+                  <div>
+                      <label for="volume"><b>Volume</b></label>
+                      <input type="range" name="volume" id="volume"
+                              min="0" max="100" step="10" value="50">
+                  </div>
+                  <div>
+                      <input type="checkbox" name="agree_tos" id="agree" checked>
+                      <label for="agree">I agree to the terms of service</label>
+                  </div>
+                  <div>
+                      <label for="story">Tell us your story!</label>
+                      <textarea name="story" id="story" 
+                                rows="5" cols="33">
+                      </textarea>
+                  </div>
+                  <div>
+                      <button>Submit</button>
+                  </div>
+                </form>
+         </body>
+     </html>
+ 
+ 
