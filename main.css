@@ -2,24 +2,27 @@
 
 
 
-/* 
+
 * {
     color: purple;
   }
-  */
+  
 
-  /*
 
   div { color:white
 } */
 
-/*
+
 p {color: pink
 } 
-*/
+
 
 .content {color:indigo;
 }
 
 .alert-text {color:red;
+}
+
+h1 { color: aquamarine
+
 }
